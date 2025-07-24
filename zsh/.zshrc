@@ -25,3 +25,7 @@ if type eza &>/dev/null; then
 else
   echo ERROR: eza could not be found. Skip setting up eza aliases.
 fi
+
+# other aliases
+# ------------------------------------------------------------------------------
+alias dots="cd ~/dotfiles"

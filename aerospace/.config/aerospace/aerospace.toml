@@ -80,13 +80,6 @@ outer.left =       24
 inner.horizontal = 24
 inner.vertical =   24
 
-# Assign certain workspaces to
-# See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
-[workspace-to-monitor-force-assignment]
-7 = 'secondary'
-8 = 'secondary'
-9 = 'secondary'
-
 # Float CleanShot X windows by default
 # See: https://nikitabobko.github.io/AeroSpace/guide#on-window-detected-callback
 [[on-window-detected]]
@@ -109,7 +102,6 @@ preset = 'qwerty'
 # See: https://nikitabobko.github.io/AeroSpace/commands#exec-and-forget
 cmd-alt-ctrl-shift-b = 'exec-and-forget open -b app.zen-browser.zen'
 cmd-alt-ctrl-shift-t = 'exec-and-forget open -a com.mitchellh.ghostty"'
-cmd-alt-ctrl-shift-m = 'exec-and-forget open -a "Spotify.app"'
 
 # Switch between layouts
 # See: https://nikitabobko.github.io/AeroSpace/commands#layout

@@ -1,0 +1,19 @@
+### appearance
+theme = "catppuccin-macchiato"
+background-opacity = 0.9
+background-blur-radius = 10
+font-family = "OperatorMono Nerd Font"
+font-size =  16
+
+### window
+macos-titlebar-style = hidden
+window-padding-x = 10
+
+### quick terminal
+quick-terminal-animation-duration = 0
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+
+### miscellaneous
+copy-on-select = true
+confirm-close-surface = false
+shell-integration-features = sudo

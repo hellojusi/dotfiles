@@ -14,8 +14,8 @@ after-login-command = []
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
 # Run SketchyBar and JankyBorders together with AeroSpace.
 after-startup-command = [
-	'exec-and-forget sketchybar',
-	'exec-and-forget borders'
+	'exec-and-forget borders active_color=0xffc6a0f6 inactive_color=0xffb7bdf8 width=5.0 hidpi=on style=round',
+	'exec-and-forget sketchybar'
 ]
 
 # Start AeroSpace at login
@@ -72,7 +72,7 @@ automatically-unhide-macos-hidden-apps = false
 outer.top =     [
   # offset of 32 on internal display, because of notch (16" MPB)
   { monitor.'built-in.*' = 16 },
-  48
+  56 
 ]
 outer.right =      24
 outer.bottom =     24

@@ -14,7 +14,7 @@ for workspace_id in $(aerospace list-workspaces --all); do
                            background.drawing=off \
                            click_script="aerospace workspace $workspace_id" \
                            label="$workspace_id" \
-                           label.width=20 \
+                           label.width=16 \
                            script="$PLUGIN_DIR/aerospace.sh $workspace_id"
 done
 

@@ -7,10 +7,12 @@ COLOR="$MAUVE"
 sketchybar --add item clock right \
 	--set clock update_freq=1 \
 	icon.padding_left=15 \
+	icon.padding_right=5 \
 	icon.color="$COLOR" \
-	icon="" \
+	icon="󰃰" \
 	label.color="$COLOR" \
 	label.padding_right=15 \
+	label.y_offset=1 \
 	background.corner_radius="$CORNER_RADIUS" \
 	background.padding_right=0 \
 	background.padding_left=0 \

@@ -27,7 +27,7 @@ TRANSPARENT=0x00000000
 # General bar colors
 ICON_COLOR=$TEXT
 LABEL_COLOR=$TEXT
-BAR_COLOR=$MANTLE
+BAR_COLOR=$BASE
 
 # Fonts
 FONT="OperatorMono Nerd Font"

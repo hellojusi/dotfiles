@@ -326,7 +326,7 @@ case $@ in
 "Preview" | "Skim" | "zathura")
   icon_result=":pdf:"
   ;;
-"1Password 7")
+"1Password" | "1Password 7")
   icon_result=":one_password:"
   ;;
 "Code" | "Code - Insiders")
@@ -359,7 +359,7 @@ case $@ in
 "Podcasts")
   icon_result=":podcasts:"
   ;;
-"Alacritty" | "Hyper" | "iTerm2" | "kitty" | "Terminal" | "WezTerm")
+"Ghostty" | "Alacritty" | "Hyper" | "iTerm2" | "kitty" | "Terminal" | "WezTerm")
   icon_result=":terminal:"
   ;;
 "Tor Browser")

@@ -24,4 +24,4 @@ sketchybar --add bracket spaces '/space\..*/' \
 				background.border_width="$BORDER_WIDTH" \
 				background.border_color="$COLOR" \
 				background.drawing=on \
-				background.height=28
+				background.height=32

@@ -18,7 +18,7 @@ if [ "$SENDER" = "aerospace_workspace_change" ]; then
   if [ "$1" = "$FOCUSED_WORKSPACE" ]; then
     sketchybar --set $NAME \
                      label.highlight=on \
-		     label.highlight_color="$HIGHLIGHT_COLOR"
+		     label.highlight_color="$HIGHLIGHT_COLOR" \
                      label.font="$FONT:Bold:$FONT_SIZE"
   else
     sketchybar --set $NAME \

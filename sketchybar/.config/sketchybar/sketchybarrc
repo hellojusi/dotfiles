@@ -33,6 +33,7 @@ source "$ITEM_DIR/front_app.sh"
 
 # Right
 source "$ITEM_DIR/clock.sh"
+source "$ITEM_DIR/weather.sh"
 
 # Automatically apply configuration changes
 sketchybar --hotload true

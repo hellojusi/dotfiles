@@ -2,8 +2,9 @@ source "$CONFIG_DIR/env.sh"
 COLOR=$GREEN
 
 sketchybar --add item weather right \
-           --set weather \
-                 update_freq=1200 \
+           --set weather script=$PLUGIN_DIR/weather.sh \
+	   	 updates=on \
+                 update_freq=900 \
 		 icon.drawing=on \
 		 icon.color="$COLOR" \
 		 icon.font="$FONT:Bold:18.0" \
@@ -15,6 +16,4 @@ sketchybar --add item weather right \
 		 label.color="$COLOR" \
 		 label.padding_left=4 \
 	 	 label.padding_right=16 \
-		 label.y_offset=0 \
-
-		 script=$PLUGIN_DIR/weather.sh \
+		 label.y_offset=0

@@ -1,0 +1,167 @@
+{
+    // Typography
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontLigatures": false,
+    "editor.lineHeight": 2,
+    "editor.suggestFontSize": 12,
+    "editor.suggestLineHeight": 18,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.fontFamily": "OperatorMono Nerd Font",
+    "editor.fontSize": 13.5, // 16
+    "window.zoomLevel": 1, // 0
+
+    // Make it pretty
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.iconTheme": "catppuccin-macchiato",
+    "catppuccin.workbenchMode": "minimal",
+    "editor.semanticHighlighting.enabled": true,
+    "terminal.integrated.minimumContrastRatio": 1,
+    "window.titleBarStyle": "custom",
+
+    // Explorer
+    "catppuccin-icons.hidesExplorerArrows": true,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 12,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    // "explorer.decorations.badges": false,
+
+    // Color customizations
+    "workbench.colorCustomizations": {
+        "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+        "editorOverviewRuler.selectionHighlightForeground": "#0000",
+        "editorOverviewRuler.rangeHighlightForeground": "#0000",
+        "editorOverviewRuler.wordHighlightForeground": "#0000",
+        "editorOverviewRuler.bracketMatchForeground": "#0000",
+        "editorOverviewRuler.findMatchForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000",
+        "editorOverviewRuler.warningForeground": "#0000",
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.errorForeground": "#0000",
+        "editorOverviewRuler.infoForeground": "#0000",
+        "editorOverviewRuler.border": "#0000"
+    },
+
+    // Custom UI Style
+    "custom-ui-style.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 20,
+            "y": 16
+        }
+    },
+    "custom-ui-style.font.sansSerif": "Operator Mono",
+    "custom-ui-style.stylesheet": {
+        ".notification-toast": "box-shadow: none !important",
+        ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+        ".quick-input-widget": "top: 25vh !important; background-color: red !important",
+        ".quick-input-list": "background-color: red !important",
+        ".quick-input-list .scrollbar": "display: none;",
+        ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+        ".sidebar": "border: none !important",
+        ".sidebar .title-label": "padding: 0 !important",
+        "monaco-list:not(.element-focused):focus:before": "outline: none !important",
+        ".monaco-list-row.focused": "outline: none !important",
+        ".title-actions": "display: none !important",
+        ".title .label-container .monaco-icon-label.file-icon": "justify-content: center !important"
+    },
+
+    // Better defaults
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "workbench.editor.enablePreview": false,
+    "window.newWindowDimensions": "inherit",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+
+    // Hide everything
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "workbench.editor.showTabs": "single",
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 4,
+    "extensions.ignoreRecommendations": true,
+
+    // Silence the noise
+    "breadcrumbs.enabled": false,
+    "scm.diffDecorations": "none",
+    "editor.hover.enabled": false,
+    "editor.matchBrackets": "never",
+    "workbench.tips.enabled": false,
+    "editor.colorDecorators": false,
+    "workbench.startupEditor": "none",
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "line",
+    "editor.occurrencesHighlight": "off",
+    "problems.decorations.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+
+    // Search
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor": true,
+        "**/dist": true,
+        "**/*.code-search": true,
+        "**/package-lock.json": true,
+        "**/composer.lock": true
+    },
+
+    // Code
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?", // Include "-" in word selection
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+        ".php_cs": "php",
+        ".php_cs.dist": "php"
+    },
+
+    // Prettier
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+
+    // PHP
+    "php.suggest.basic": false,
+
+    // PHP CS Fixer
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer",
+        "editor.formatOnSave": true,
+    },
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.autoFixByBracket": false,
+    "php-cs-fixer.rules": "@PSR2",
+}

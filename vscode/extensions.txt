@@ -1,0 +1,17 @@
+adrianwilczynski.alpine-js-intellisense
+bmewburn.vscode-intelephense-client
+bradlc.vscode-tailwindcss
+calebporzio.better-phpunit
+catppuccin.catppuccin-vsc
+catppuccin.catppuccin-vsc-icons
+cierra.livewire-vscode
+ctf0.php-namespace-resolver
+entexa.tall-stack
+esbenp.prettier-vscode
+junstyle.php-cs-fixer
+laravel.vscode-laravel
+monokai.theme-monokai-pro-vscode
+mrmlnc.vscode-duplicate
+open-southeners.laravel-pint
+stivo.tailwind-fold
+subframe7536.custom-ui-style

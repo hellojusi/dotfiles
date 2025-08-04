@@ -15,7 +15,7 @@ sketchybar --add item clock right \
 	label.y_offset=1 \
 	background.corner_radius="$CORNER_RADIUS" \
 	background.padding_right=0 \
-	background.padding_left=0 \
+	background.padding_left=15 \
 	background.border_width="$BORDER_WIDTH" \
 	background.border_color="$COLOR" \
 	background.color="$BAR_COLOR" \

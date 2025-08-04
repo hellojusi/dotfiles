@@ -32,6 +32,7 @@ BAR_COLOR=$BASE
 # Fonts
 FONT="OperatorMono Nerd Font"
 FONT_SIZE=16.0
+ICON_FONT="sketchybar-app-font"
 
 # Layout
 PADDINGS=3

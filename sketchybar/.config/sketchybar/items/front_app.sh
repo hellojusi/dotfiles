@@ -14,6 +14,7 @@ sketchybar --add item  front_app left \
 		       background.border_color="$COLOR" \
 		       background.corner_radius="$CORNER_RADIUS" \
 		       background.color="$BAR_COLOR" \
+		       background.padding_right=15 \
 		       label.color="$COLOR" \
 		       label.padding_left=4 \
 	 	       label.padding_right=16 \

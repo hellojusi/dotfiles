@@ -13,6 +13,7 @@ sketchybar --add item weather right \
 		 background.border_color="$COLOR" \
 		 background.corner_radius="$CORNER_RADIUS" \
 		 background.color="$BAR_COLOR" \
+		 background.padding_left=15 \
 		 label.color="$COLOR" \
 		 label.padding_left=4 \
 	 	 label.padding_right=16 \

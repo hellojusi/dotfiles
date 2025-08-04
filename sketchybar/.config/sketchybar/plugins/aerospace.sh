@@ -3,7 +3,7 @@
 source "$CONFIG_DIR/env.sh"
 source "$PLUGIN_DIR/icon_map.sh"
 
-HIGHLIGHT_COLOR=$GREEN
+HIGHLIGHT_COLOR=$TEAL
 
 # Get fresh focused workspace only if called via polling (not by event)
 if [ "$SENDER" = "routine" ]; then
